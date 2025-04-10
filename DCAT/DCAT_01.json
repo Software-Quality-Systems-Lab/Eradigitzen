@@ -13,9 +13,23 @@
             "distribuciones": [
               {
                 "nombre": "Dataset_Eustat_1_1.json",
-                "conformsTo": "Dataset_Eustat_1_1_schema.json",
+                "conformsTo": "Empresa_schema.json",
                 "servicioDeAcceso": {
                   "endpoint": "ruta_al_endpoint/DSpacer_Eustat_1_1_json"
+                }
+              }
+            ]
+          },
+          {
+            "nombre": "Dataset_Eustat_2",
+            "tipo_dataset":"Establecimiento",
+            "Tipo_proveedor": "Principal",
+            "distribuciones": [
+              {
+                "nombre": "Dataset_Eustat_2_1.json",
+                "conformsTo": "Establecimiento_schema.json",
+                "servicioDeAcceso": {
+                  "endpoint": "ruta_al_endpoint/DSpacer_Eustat_2_1_json"
                 }
               }
             ]
@@ -32,14 +46,14 @@
             "distribuciones": [
               {
                 "nombre": "Dataset_Innobasque_1_1.json",
-                "conformsTo": "Dataset_Innobasque_1_1_schema.json",
+                "conformsTo": "AccionesInnovacion_schema.json",
                 "servicioDeAcceso": {
                   "endpoint": "ruta_al_endpoint/DSpacer_Innobasque_1_1_json"
                 }
               },
               {
                 "nombre": "Dataset_Innobasque_1_2.json",
-                "conformsTo": "Dataset_Innobasque_1_2_schema.json",
+                "conformsTo": "PerfilInnovacion_schema.json",
                 "servicioDeAcceso": {
                   "endpoint": "ruta_al_endpoint/DSpacer_Innobasque_1_2_json"
                 }
@@ -58,9 +72,23 @@
             "distribuciones": [
               {
                 "nombre": "Dataset_Iraurgi_1_1.json",
-                "conformsTo": "Dataset_Iraurgi_1_1_schema.json",
+                "conformsTo": "Establecimiento_schema.json",
                 "servicioDeAcceso": {
                   "endpoint": "ruta_al_endpoint/DSpacer_Iraurgi_1_1_json"
+                }
+              }
+            ]
+          },
+          {
+            "nombre": "Dataset_Iraurgi_2",
+            "Tipo_proveedor": "Secundario",
+            "tipo_dataset":"Empresa",
+            "distribuciones": [
+              {
+                "nombre": "Dataset_Iraurgi_2_1.json",
+                "conformsTo": "Empresa.json",
+                "servicioDeAcceso": {
+                  "endpoint": "ruta_al_endpoint/DSpacer_Iraurgi_2_1_json"
                 }
               }
             ]
