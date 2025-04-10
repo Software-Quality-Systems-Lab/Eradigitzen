@@ -1,0 +1,72 @@
+{
+    "titulo": "Catalogo Eradigintza",
+    "descripcion": "Demografia empresarial de Gipuzkoa",
+    "editor": "SQS",
+    "proveedores": [
+      {
+        "nombre": "Eustat",
+        "datasets": [
+          {
+            "nombre": "Dataset_Eustat_1",
+            "tipo_dataset":"Empresa",
+            "Tipo_proveedor": "Principal",
+            "distribuciones": [
+              {
+                "nombre": "Dataset_Eustat_1_1.json",
+                "conformsTo": "Dataset_Eustat_1_1_schema.json",
+                "servicioDeAcceso": {
+                  "endpoint": "ruta_al_endpoint/DSpacer_Eustat_1_1_json"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Innobasque",
+        "datasets": [
+          {
+            "nombre": "Dataset_Innobasque_1",
+            "Tipo_proveedor": "Principal",
+            "tipo_dataset":"Empresa",
+            "distribuciones": [
+              {
+                "nombre": "Dataset_Innobasque_1_1.json",
+                "conformsTo": "Dataset_Innobasque_1_1_schema.json",
+                "servicioDeAcceso": {
+                  "endpoint": "ruta_al_endpoint/DSpacer_Innobasque_1_1_json"
+                }
+              },
+              {
+                "nombre": "Dataset_Innobasque_1_2.json",
+                "conformsTo": "Dataset_Innobasque_1_2_schema.json",
+                "servicioDeAcceso": {
+                  "endpoint": "ruta_al_endpoint/DSpacer_Innobasque_1_2_json"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Iraurgi",
+        "datasets": [
+          {
+            "nombre": "Dataset_Iraurgi_1",
+            "Tipo_proveedor": "Secundario",
+            "tipo_dataset":"Establecimiento",
+            "distribuciones": [
+              {
+                "nombre": "Dataset_Iraurgi_1_1.json",
+                "conformsTo": "Dataset_Iraurgi_1_1_schema.json",
+                "servicioDeAcceso": {
+                  "endpoint": "ruta_al_endpoint/DSpacer_Iraurgi_1_1_json"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

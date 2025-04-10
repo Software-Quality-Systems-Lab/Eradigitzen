@@ -1,0 +1,123 @@
+[
+    {
+      "IDENTIFICADOR_UJ": "UJ1001",
+      "SubtipoAccion": "Taller de creatividad",
+      "TituloAccion": "Sesión de innovación para nuevos productos",
+      "FechaAccion": "2024-03-12",
+      "AgenteAccion": "Innovación SL",
+      "BidelagunAccion": "Colaborador A",
+      "AmbitoAccion": "Innovacion en producto",
+      "SubambitoAccion": "Diseño de nuevos envases",
+      "DescripcionAccion": "Taller para explorar nuevos envases sostenibles",
+      "Fecha_actualizacion": "2024-03-15"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1002",
+      "SubtipoAccion": "Formación interna",
+      "TituloAccion": "Capacitación en metodologías ágiles",
+      "FechaAccion": "2024-01-25",
+      "AgenteAccion": "Equipo de RRHH",
+      "BidelagunAccion": "Scrum Master",
+      "AmbitoAccion": "Capacidades de innovacion",
+      "SubambitoAccion": "Metodologías ágiles",
+      "DescripcionAccion": "Curso intensivo sobre Scrum y Kanban",
+      "Fecha_actualizacion": "2024-02-01"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1003",
+      "SubtipoAccion": "Análisis de mercado",
+      "TituloAccion": "Estudio de tendencias del consumidor",
+      "FechaAccion": "2023-11-10",
+      "AgenteAccion": "Departamento de Marketing",
+      "BidelagunAccion": "Agencia externa",
+      "AmbitoAccion": "en mercado",
+      "SubambitoAccion": "Comportamiento del consumidor",
+      "DescripcionAccion": "Análisis de hábitos de compra post-pandemia",
+      "Fecha_actualizacion": "2023-11-15"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1004",
+      "SubtipoAccion": "Rediseño de procesos",
+      "TituloAccion": "Optimización de la cadena de suministro",
+      "FechaAccion": "2023-09-03",
+      "AgenteAccion": "Logística",
+      "BidelagunAccion": "Consultora de procesos",
+      "AmbitoAccion": "en proceso",
+      "SubambitoAccion": "Mejora continua",
+      "DescripcionAccion": "Implementación de Lean en el almacén central",
+      "Fecha_actualizacion": "2023-09-07"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1005",
+      "SubtipoAccion": "Proyecto piloto",
+      "TituloAccion": "Implantación de IA en atención al cliente",
+      "FechaAccion": "2023-08-20",
+      "AgenteAccion": "Tecnología e Innovación",
+      "BidelagunAccion": "Startup IA",
+      "AmbitoAccion": "Innovacion en producto",
+      "SubambitoAccion": "Asistentes virtuales",
+      "DescripcionAccion": "Chatbot piloto en el canal web",
+      "Fecha_actualizacion": "2023-08-25"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1006",
+      "SubtipoAccion": "Diagnóstico organizacional",
+      "TituloAccion": "Evaluación del clima innovador",
+      "FechaAccion": "2023-07-14",
+      "AgenteAccion": "Dirección General",
+      "BidelagunAccion": "Universidad local",
+      "AmbitoAccion": "en organizacion de personas",
+      "SubambitoAccion": "Cultura de innovación",
+      "DescripcionAccion": "Encuestas internas sobre innovación",
+      "Fecha_actualizacion": "2023-07-18"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1007",
+      "SubtipoAccion": "Benchmarking",
+      "TituloAccion": "Visita a empresas innovadoras",
+      "FechaAccion": "2023-06-30",
+      "AgenteAccion": "Dirección Técnica",
+      "BidelagunAccion": "Cluster del sector",
+      "AmbitoAccion": "Estrategia y planificacion",
+      "SubambitoAccion": "Aprendizaje de buenas prácticas",
+      "DescripcionAccion": "Intercambio de experiencias con líderes del sector",
+      "Fecha_actualizacion": "2023-07-02"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1008",
+      "SubtipoAccion": "Sesión estratégica",
+      "TituloAccion": "Definición de hoja de ruta digital",
+      "FechaAccion": "2023-05-21",
+      "AgenteAccion": "Comité de Innovación",
+      "BidelagunAccion": "Consultora Digital",
+      "AmbitoAccion": "Estrategia y planificacion",
+      "SubambitoAccion": "Transformación digital",
+      "DescripcionAccion": "Taller de definición de objetivos y prioridades",
+      "Fecha_actualizacion": "2023-05-24"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1009",
+      "SubtipoAccion": "Colaboración interdepartamental",
+      "TituloAccion": "Creación de comité de innovación",
+      "FechaAccion": "2023-04-10",
+      "AgenteAccion": "Gerencia",
+      "BidelagunAccion": "Representantes de áreas",
+      "AmbitoAccion": "Capacidades de innovacion",
+      "SubambitoAccion": "Gobernanza de innovación",
+      "DescripcionAccion": "Formación de comité con reuniones mensuales",
+      "Fecha_actualizacion": "2023-04-12"
+    },
+    {
+      "IDENTIFICADOR_UJ": "UJ1010",
+      "SubtipoAccion": "Prueba de concepto",
+      "TituloAccion": "Prototipo de sistema RFID en almacén",
+      "FechaAccion": "2023-02-28",
+      "AgenteAccion": "Ingeniería",
+      "BidelagunAccion": "Proveedor tecnológico",
+      "AmbitoAccion": "en proceso",
+      "SubambitoAccion": "Digitalización de operaciones",
+      "DescripcionAccion": "Prueba de trazabilidad con tecnología RFID",
+      "Fecha_actualizacion": "2023-03-05"
+    }
+  ]
+  
