@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Acciones individuales de innovacion",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "IDENTIFICADOR_UJ": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9]+$"
+        },
+        "SubtipoAccion": { "type": "string" },
+        "TituloAccion": { "type": "string" },
+        "FechaAccion": { 
+          "type": "string",
+          "format": "date"
+        },
+        "AgenteAccion": { "type": "string" },
+        "BidelagunAccion": { "type": "string" },
+        "AmbitoAccion": { 
+          "type": "string",
+          "enum": [
+            "Estrategia y planificacion", 
+            "Capacidades de innovacion", 
+            "Innovacion en producto", 
+            "en proceso", 
+            "en organizacion de personas", 
+            "en mercado"
+          ]
+        },
+        "SubambitoAccion": { "type": "string" },
+        "DescripcionAccion": { "type": "string" },
+        "Fecha_actualizacion": { 
+            "type": "string",
+            "format": "date"
+        }
+      },
+      "required": [
+        "SubtipoAccion", 
+        "TituloAccion", 
+        "FechaAccion", 
+        "AgenteAccion", 
+        "BidelagunAccion", 
+        "AmbitoAccion", 
+        "SubambitoAccion", 
+        "DescripcionAccion"
+      ],
+      "additionalProperties": false
+    }
+  }
+  
