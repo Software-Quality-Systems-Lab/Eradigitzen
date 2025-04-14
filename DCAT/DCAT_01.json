@@ -9,7 +9,7 @@
           {
             "nombre": "Dataset_Eustat_1",
             "tipo_dataset":"Empresa",
-            "Tipo_proveedor": "Principal",
+            "Tipo_proveedor": "PP",
             "distribuciones": [
               {
                 "nombre": "Dataset_Eustat_1_1.json",
@@ -23,7 +23,7 @@
           {
             "nombre": "Dataset_Eustat_2",
             "tipo_dataset":"Establecimiento",
-            "Tipo_proveedor": "Principal",
+            "Tipo_proveedor": "PP",
             "distribuciones": [
               {
                 "nombre": "Dataset_Eustat_2_1.json",
@@ -41,7 +41,7 @@
         "datasets": [
           {
             "nombre": "Dataset_Innobasque_1",
-            "Tipo_proveedor": "Principal",
+            "Tipo_proveedor": "PP",
             "tipo_dataset":"Empresa",
             "distribuciones": [
               {
@@ -67,7 +67,7 @@
         "datasets": [
           {
             "nombre": "Dataset_Iraurgi_1",
-            "Tipo_proveedor": "Secundario",
+            "Tipo_proveedor": "PS",
             "tipo_dataset":"Establecimiento",
             "distribuciones": [
               {
@@ -81,7 +81,7 @@
           },
           {
             "nombre": "Dataset_Iraurgi_2",
-            "Tipo_proveedor": "Secundario",
+            "Tipo_proveedor": "PS",
             "tipo_dataset":"Empresa",
             "distribuciones": [
               {
