@@ -21,7 +21,6 @@
       "Organo_de_la_convocatoria": { "type": ["string", "integer", "null"] },
       "Administracion": { "type": ["string", "integer", "null"] },
       "Departamento": { "type": ["string", "integer", "null"] },
-      "Beneficiario": { "type": ["string", "integer", "null"] }
     },
     "required": [
       "IDENTIFICADOR_UJ",
