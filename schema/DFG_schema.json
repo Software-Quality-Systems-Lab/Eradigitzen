@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Diputación Foral de Gipuzkoa",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "IDENTIFICADOR_UJ": { "type": "string" },
+      "Instrumento": { "type": "string" },
+      "Importe": { "type": "number" },
+      "Ayuda_equivalente": { "type": "number" },
+      "Fecha_de_concesion": { 
+        "type": "string",
+        "format": "date"
+      },
+      "Aplicacion_presupuestaria": { "type": "string"},
+      "URL_de_las_Bases_Reguladoras": { 
+        "type": "string",
+        "format": "URI"
+      },
+      "Fecha_de_Publicacion": { 
+        "type": "string",
+        "format": "date"
+      },
+      "Convocatoria": { "type": "string" },
+      "Descripcion_de_la_convocatoria": { "type": "string"},
+      "Organo_de_la_convocatoria": { "type": "string" },
+      "Administracion": { "type": "string" },
+      "Departamento": { "type": "string" }
+    },
+    "required": [
+      "IDENTIFICADOR_UJ",
+      "Instrumento",
+      "Importe",
+      "Ayuda_equivalente",
+      "Fecha_de_concesion",
+      "Aplicacion_presupuestaria",
+      "URL_de_las_Bases_Reguladoras",
+      "Fecha_de_Publicacion",
+      "Convocatoria",
+      "Descripcion_de_la_convocatoria",
+      "Organo_de_la_convocatoria",
+      "Administracion",
+      "Departamento"
+    ],
+    "additionalProperties": false
+  }
+}
