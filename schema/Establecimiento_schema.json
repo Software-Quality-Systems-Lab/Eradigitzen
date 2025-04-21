@@ -5,10 +5,7 @@
   "items": {
     "type": "object",
     "properties": {
-      "IDENTIFICADOR_UJ": {
-        "type": "string",
-        "pattern": "^[a-zA-Z0-9]+$" 
-      },
+      "IDENTIFICADOR_UJ": { "type": "string" },
       "IDENTIFICADOR_ESTABLECIMIENTO": { "type": "string" },
       "IDENTIFICADOR_INTERNO": { "type": "string" },
       "Año_Ref": { "type": "integer", "minimum": 1900, "maximum": 2100 },
@@ -36,11 +33,11 @@
 
       "Primer_telefono": {
         "type": "string",
-        "pattern": "^[0-9\\s\\-\\+]{9,15}$"
+        "pattern": "^[0-9\\s\\-\\+]{9,16}$"
       },
       "Segundo_telefono": {
         "type": "string",
-        "pattern": "^[0-9\\s\\-\\+]{9,15}$"
+        "pattern": "^[0-9\\s\\-\\+]{9,16}$"
       },
       "Correo_electronico": {
         "type": "string",
