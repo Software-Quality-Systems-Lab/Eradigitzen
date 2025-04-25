@@ -10,7 +10,7 @@
                         "Proveedor": "Eustat",
                         "Tipo_dataset": "Empresa",
                         "Tipo_proveedor": "PP",
-                        "Identificador_UJ": "identificadores.json"
+                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
                     },
                     "distribuciones": [
                         {
@@ -26,7 +26,7 @@
                         "Proveedor": "Eustat",
                         "Tipo_dataset": "Establecimiento",
                         "Tipo_proveedor": "PP",
-                        "Identificador_UJ": "identificadores.json"
+                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
                     },
                     "distribuciones": [
                         {
@@ -46,7 +46,7 @@
                         "Proveedor": "Innobasque",
                         "Tipo_dataset": "Innovacion",
                         "Tipo_proveedor": "PP",
-                        "Identificador_UJ": "identificadores.json"
+                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
                     },
                     "distribuciones": [
                         {
@@ -72,7 +72,7 @@
                         "Proveedor": "Iraurgi",
                         "Tipo_dataset": "Establecimiento",
                         "Tipo_proveedor": "PS",
-                        "Identificador_UJ": "identificadores.json"
+                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
                     },
                     "distribuciones": [
                         {
@@ -88,7 +88,7 @@
                         "Proveedor": "Iraurgi",
                         "Tipo_dataset": "Empresa",
                         "Tipo_proveedor": "PS",
-                        "Identificador_UJ": "identificadores.json"
+                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
 
                     },
                     "distribuciones": [
@@ -109,7 +109,7 @@
                         "Proveedor": "DFG",
                         "Tipo_dataset": "DFG_Dataset",
                         "Tipo_proveedor": "PP",
-                        "Identificador_UJ": "identificadores.json"
+                        "Identificador_UJ": ["UJ001"]
                     },
                     "distribuciones": [
                         {
