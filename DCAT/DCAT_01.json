@@ -1,126 +1,118 @@
 {
-    "titulo": "Catalogo Eradigintza",
-    "descripcion": "Demografia empresarial de Gipuzkoa",
-    "editor": "SQS",
-    "proveedores": [
+  "titulo": "Catalogo Eradigintza",
+  "descripcion": "Demografia empresarial de Gipuzkoa",
+  "editor": "SQS",
+  "proveedores": [
+    {
+      "nombre": "Eustat",
+      "datasets": [
         {
-            "datasets": [
-                {
-                    "Filtros": {
-                        "Proveedor": "Eustat",
-                        "Tipo_dataset": "Empresa",
-                        "Tipo_proveedor": "PP",
-                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
-                    },
-                    "distribuciones": [
-                        {
-                            "conformsTo": "Empresa_schema.json",
-                            "servicioDeAcceso": {
-                                "endpoint": "https://57.128.86.170:8080/api/offers/ff057666-eedc-4dda-afcc-1fa3900e9136"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "Filtros": {
-                        "Proveedor": "Eustat",
-                        "Tipo_dataset": "Establecimiento",
-                        "Tipo_proveedor": "PP",
-                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
-                    },
-                    "distribuciones": [
-                        {
-                            "conformsTo": "Establecimiento_schema.json",
-                            "servicioDeAcceso": {
-                                "endpoint": "https://57.128.86.170:8080/api/offers/02ff7df0-36ba-4dbe-93bf-2b8ffbb46df7"
-                            }
-                        }
-                    ]
-                }
-            ]
+          "nombre": "Dataset_Eustat_1",
+          "tipo_dataset": "Empresa",
+          "Tipo_proveedor": "PP",
+          "distribuciones": [
+            {
+              "nombre": "Dataset_Eustat_1_1.json",
+              "conformsTo": "Empresa_schema.json",
+              "servicioDeAcceso": {
+                "endpoint": "https://github.com/Software-Quality-Systems-Lab/Eradigitzen/raw/main/Eustat/Dataset_Eustat_1/Dataset_Eustat_1_1.json"
+              }
+            }
+          ]
         },
         {
-            "datasets": [
-                {
-                    "Filtros": {
-                        "Proveedor": "Innobasque",
-                        "Tipo_dataset": "Innovacion",
-                        "Tipo_proveedor": "PP",
-                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
-                    },
-                    "distribuciones": [
-                        {
-                            "conformsTo": "AccionesInnovacion_schema.json",
-                            "servicioDeAcceso": {
-                                "endpoint": "https://57.128.86.170:8081/api/offers/b67cb82b-4dfa-466d-84c8-da2c59f052a1"
-                            }
-                        },
-                        {
-                            "conformsTo": "PerfilInnovacion_schema.json",
-                            "servicioDeAcceso": {
-                                "endpoint": "https://57.128.86.170:8081/api/offers/62fad804-3c90-4f5a-b579-9a2a76970c6a"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "datasets": [
-                {
-                    "Filtros": {
-                        "Proveedor": "Iraurgi",
-                        "Tipo_dataset": "Establecimiento",
-                        "Tipo_proveedor": "PS",
-                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
-                    },
-                    "distribuciones": [
-                        {
-                            "conformsTo": "Establecimiento_schema.json",
-                            "servicioDeAcceso": {
-                                "endpoint": "https://57.128.86.170:8083/api/offers/de86f407-0c41-4c26-bea8-6f9b1a96bfd8"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "Filtros": {
-                        "Proveedor": "Iraurgi",
-                        "Tipo_dataset": "Empresa",
-                        "Tipo_proveedor": "PS",
-                        "Identificador_UJ": ["UJ001", "UJ002", "UJ003", "UJ004", "UJ005", "UJ006", "UJ007", "UJ008", "UJ009", "UJ010"]
-
-                    },
-                    "distribuciones": [
-                        {
-                            "conformsTo": "Empresa.json",
-                            "servicioDeAcceso": {
-                                "endpoint": "https://57.128.86.170:8083/api/offers/0f549b13-4e5c-4a7f-b12d-57e61bf18475"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "datasets": [
-                {
-                    "Filtros": {
-                        "Proveedor": "DFG",
-                        "Tipo_dataset": "DFG_Dataset",
-                        "Tipo_proveedor": "PP",
-                        "Identificador_UJ": ["UJ001"]
-                    },
-                    "distribuciones": [
-                        {
-                            "conformsTo": "DFG_schema.json",
-                            "servicioDeAcceso": {
-                                "endpoint": "https://57.128.86.170:8082/api/offers/3651f7c0-7e79-49c6-a8c5-6493bf82ab8b"
-                            }
-                        }
-                    ]
-                }
-            ]
+          "nombre": "Dataset_Eustat_2",
+          "tipo_dataset": "Establecimiento",
+          "Tipo_proveedor": "PP",
+          "distribuciones": [
+            {
+              "nombre": "Dataset_Eustat_2_1.json",
+              "conformsTo": "Establecimiento_schema.json",
+              "servicioDeAcceso": {
+                "endpoint": "https://github.com/Software-Quality-Systems-Lab/Eradigitzen/raw/main/Eustat/Dataset_Eustat_2/Dataset_Eustat_2_1.json"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "nombre": "Innobasque",
+      "datasets": [
+        {
+          "nombre": "Dataset_Innobasque_1",
+          "Tipo_proveedor": "PP",
+          "tipo_dataset": "Innovacion",
+          "distribuciones": [
+            {
+              "nombre": "Dataset_Innobasque_1_1.json",
+              "conformsTo": "AccionesInnovacion_schema.json",
+              "servicioDeAcceso": {
+                "endpoint": "https://github.com/Software-Quality-Systems-Lab/Eradigitzen/raw/main/Innobasque/Dataset_Innobasque_1/Dataset_Innobasque_1_1.json"
+              }
+            },
+            {
+              "nombre": "Dataset_Innobasque_1_2.json",
+              "conformsTo": "PerfilInnovacion_schema.json",
+              "servicioDeAcceso": {
+                "endpoint": "https://github.com/Software-Quality-Systems-Lab/Eradigitzen/raw/main/Innobasque/Dataset_Innobasque_1/Dataset_Innobasque_1_2.json"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Iraurgi",
+      "datasets": [
+        {
+          "nombre": "Dataset_Iraurgi_1",
+          "Tipo_proveedor": "PS",
+          "tipo_dataset": "Establecimiento",
+          "distribuciones": [
+            {
+              "nombre": "Dataset_Iraurgi_1_1.json",
+              "conformsTo": "Establecimiento_schema.json",
+              "servicioDeAcceso": {
+                "endpoint": "https://github.com/Software-Quality-Systems-Lab/Eradigitzen/raw/main/Iraurgiberritzen/Dataset_Iraurgi_1/Dataset_Iraurgi_1_1.json"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "Dataset_Iraurgi_2",
+          "Tipo_proveedor": "PS",
+          "tipo_dataset": "Empresa",
+          "distribuciones": [
+            {
+              "nombre": "Dataset_Iraurgi_2_1.json",
+              "conformsTo": "Empresa.json",
+              "servicioDeAcceso": {
+                "endpoint": "https://github.com/Software-Quality-Systems-Lab/Eradigitzen/raw/main/Iraurgiberritzen/Dataset_Iraurgi_2/Dataset_Iraurgi_2_1.json"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "DFG",
+      "datasets": [
+        {
+          "nombre": "Dataset_DFG_1",
+          "Tipo_proveedor": "PP",
+          "tipo_dataset": "DFG_Dataset",
+          "distribuciones": [
+            {
+              "nombre": "Dataset_DFG_1_1.json",
+              "conformsTo": "DFG_schema.json",
+              "servicioDeAcceso": {
+                "endpoint": "https://github.com/Software-Quality-Systems-Lab/Eradigitzen/raw/main/DFG/Dataset_DFG_1/Dataset_DFG_1_1.json"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
