@@ -1,0 +1,233 @@
+{
+  "tabla": "empresa",
+  "campos": [
+    {
+      "nombre": "id",
+      "tipo": "entero",
+      "requerido": true,
+      "clave_primaria": true,
+      "descripcion": "Identificador único de la base de datos."
+    },
+    {
+      "nombre": "identificador_uj",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+    },
+    {
+      "nombre": "nombre_empresa_razon_social",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Razón social o denominación legal de la unidad jurídica."
+    },
+    {
+      "nombre": "grupo",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Nombre del grupo / Matriz. Cuando existen varias unidades jurídicas que pertenecen al mismo grupo."
+    },
+    {
+      "nombre": "num_estab_cae",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Número de establecimientos de la empresa en la CAE."
+    },
+    {
+      "nombre": "num_estab_estado",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Número de establecimientos de la empresa en el Estado."
+    },
+    {
+      "nombre": "provincia_o_territorio_historico_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Provincia o territorio histórico donde está la empresa."
+    },
+    {
+      "nombre": "codigo_provincia_th_empresa",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Código de la provincia o territorio histórico."
+    },
+    {
+      "nombre": "municipio_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Municipio donde está ubicada la empresa."
+    },
+    {
+      "nombre": "codigo_municipio_empresa",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Código del municipio."
+    },
+    {
+      "nombre": "entidad_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Entidad administrativa donde se ubica la empresa (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_entidad_empresa",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Código de la entidad administrativa (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "direccion_postal_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Dirección postal principal de la empresa."
+    },
+    {
+      "nombre": "complemento_direccion_postal_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Complemento de la dirección postal."
+    },
+    {
+      "nombre": "codigo_postal_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código postal de la empresa."
+    },
+    {
+      "nombre": "codigo_calle_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código identificativo de la calle (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_bloque_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código del bloque dentro de la calle (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_numero_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Número del edificio o local (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_bis_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código BIS (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_escalera_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código de la escalera en el edificio (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_piso_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código del piso o planta (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_mano_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código que indica la mano o lado del edificio (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "codigo_puerta_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código de la puerta o acceso (Solo para razones sociales en la CAE)."
+    },
+    {
+      "nombre": "primer_telefono_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Número de teléfono principal de la empresa."
+    },
+    {
+      "nombre": "segundo_telefono_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Número de teléfono secundario."
+    },
+    {
+      "nombre": "correo_electronico_empresa",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Correo electrónico de contacto."
+    },
+    {
+      "nombre": "direccion_sitio_web",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "URL del sitio web oficial de la empresa."
+    },
+    {
+      "nombre": "actividad_principal_cnae_09",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código de actividad principal s/CNAE-2009 de la empresa en el Estado."
+    },
+    {
+      "nombre": "actividad_principal_cnae_25",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código de actividad principal s/CNAE-2025 de la empresa en el Estado."
+    },
+    {
+      "nombre": "empleo_cae",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Personas empleadas en la C.A. de Euskadi en rangos."
+    },
+    {
+      "nombre": "empleo_estado",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Personas empleadas en el Total del Estado de la unidad jurídica en rangos."
+    },
+    {
+      "nombre": "mujeres_empleadas_cae",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Personas empleadas mujeres en la C.A. de Euskadi en rangos."
+    },
+    {
+      "nombre": "personas_asalariadas_cae",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Personas empleadas en la C.A. de Euskadi en rangos."
+    },
+    {
+      "nombre": "mujeres_asalariadas_cae",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Personas empleadas mujeres asalariados en la C.A. de Euskadi en rangos incluyendo empleados de cooperativas."
+    }
+  ]
+}

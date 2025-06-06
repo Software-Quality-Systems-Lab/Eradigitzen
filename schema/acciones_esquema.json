@@ -1,0 +1,74 @@
+{
+  "tabla": "acciones",
+  "campos": [
+    {
+      "nombre": "id",
+      "tipo": "entero",
+      "requerido": true,
+      "clave_primaria": true,
+      "descripcion": "Identificador único de la base de datos."
+    },
+    {
+      "nombre": "identificador_uj",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+    },
+    {
+      "nombre": "subtipo_accion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Indicador por subtipo de acciones realizadas (Formación, Servicios, Ayudas y subvenciones, Participación en proyectos, Participación en jornadas, Banco Casos Prácticos, Nominación Premios…)."
+    },
+    {
+      "nombre": "titulo_accion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Primer detalle de la acción realizada (e.g. nombre del programa de ayuda: HAZINNOVA o ETE DIGITALA)."
+    },
+    {
+      "nombre": "fecha_accion",
+      "tipo": "fecha",
+      "requerido": true,
+      "descripcion": "Fecha de la acción realizada."
+    },
+    {
+      "nombre": "agente_accion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Agente con el que se ha realizado la acción."
+    },
+    {
+      "nombre": "bidelagun_accion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Entidad de acompañamiento."
+    },
+    {
+      "nombre": "ambito_accion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Ámbito de innovación (Estrategia y planificación, Capacidades de innovación, Innovación en producto, en proceso, en organización de personas, en mercado)."
+    },
+    {
+      "nombre": "subambito_accion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Subámbito de innovación vinculado al ámbito."
+    },
+    {
+      "nombre": "descripcion_accion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Detalle ampliado de la acción realizada (e.g. lote realizado en Hazinnova o contenido en ETE Digitala)."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "tabla": "dfg",
+  "campos": [
+    {
+      "nombre": "id",
+      "tipo": "entero",
+      "requerido": true,
+      "clave_primaria": true,
+      "descripcion": "Identificador único de la base de datos."
+    },
+    {
+      "nombre": "identificador_uj",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+    },
+    {
+      "nombre": "instrumento",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Subvención realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "importe",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Importe (en €) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "ayuda_equivalente",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Ayuda equivalente (en €) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "fecha_de_concesion",
+      "tipo": "fecha",
+      "requerido": true,
+      "descripcion": "Fecha de la concesión (DD/MM/AAAA) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "aplicacion_presupuestaria",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Aplicación presupuestaria de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "url_bases_reguladoras",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "URL de las bases reguladoras de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "fecha_de_publicacion",
+      "tipo": "fecha",
+      "requerido": true,
+      "descripcion": "Fecha de publicación (DD/MM/AAAA) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "convocatoria",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Convocatoria de ayudas realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "descripcion_convocatoria",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Descripción de la convocatoria de ayudas realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "organo_convocatoria",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Órgano de la convocatoria de ayudas realizada desde la Diputación Foral de Gipuzkoa."
+    },
+    {
+      "nombre": "administracion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Administración que realiza la convocatoria de ayudas"
+    },
+    {
+      "nombre": "departamento",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Departamento que realiza la convocatoria de ayudas"
+    }
+  ]
+}

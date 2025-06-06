@@ -1,0 +1,262 @@
+{
+  "tabla": "empresa",
+  "campos": [
+    {
+      "nombre": "id",
+      "tipo": "entero",
+      "requerido": true,
+      "clave_primaria": true,
+      "descripcion": "Identificador único de la base de datos."
+    },
+    {
+      "nombre": "identificador_uj",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+    },
+    {
+      "nombre": "identificador_establecimiento",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código identificador del establecimiento generado por eustat para el espacio de datos."
+    },
+    {
+      "nombre": "identificador_interno",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Identificador interno de la entidad."
+    },
+    {
+      "nombre": "fecha_ref",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Año de referencia de los datos."
+    },
+    {
+      "nombre": "establecimiento_denominacion",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Nombre comercial o denominación del establecimiento."
+    },
+    {
+      "nombre": "territorio_historico",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Nombre del territorio histórico donde se ubica."
+    },
+    {
+      "nombre": "codigo_de_th",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código del territorio histórico."
+    },
+    {
+      "nombre": "municipio",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Nombre del municipio."
+    },
+    {
+      "nombre": "codigo_de_municipio",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código oficial del municipio."
+    },
+    {
+      "nombre": "entidad",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Nombre de la entidad poblacional."
+    },
+    {
+      "nombre": "codigo_de_entidad",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código oficial de la entidad poblacional."
+    },
+    {
+      "nombre": "direccion_postal",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Dirección postal principal."
+    },
+    {
+      "nombre": "complemento_direccion_postal",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Información adicional de la dirección postal."
+    },
+    {
+      "nombre": "codigo_postal",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código postal."
+    },
+    {
+      "nombre": "codigo_de_calle",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código de la calle."
+    },
+    {
+      "nombre": "codigo_de_bloque",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código del bloque del edificio."
+    },
+    {
+      "nombre": "codigo_de_numero",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Número del portal o edificio."
+    },
+    {
+      "nombre": "codigo_de_bis",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Indicador de repetición (por ejemplo, 'bis')."
+    },
+    {
+      "nombre": "codigo_de_escalera",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código de la escalera dentro del edificio."
+    },
+    {
+      "nombre": "codigo_de_piso",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Número del piso dentro del edificio."
+    },
+    {
+      "nombre": "codigo_de_mano",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Orientación de la vivienda (izquierda, derecha, etc.)."
+    },
+    {
+      "nombre": "codigo_de_puerta",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Número o identificador de la puerta."
+    },
+    {
+      "nombre": "primer_telefono",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Primer número de teléfono de contacto."
+    },
+    {
+      "nombre": "segundo_telefono",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Segundo número de teléfono de contacto."
+    },
+    {
+      "nombre": "correo_electronico",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Correo electrónico de contacto de la empresa."
+    },
+    {
+      "nombre": "actividad_principal_cnae_09",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código CNAE 2009 de la actividad principal del establecimiento."
+    },
+    {
+      "nombre": "actividad_principal_cnae_25",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código CNAE 2025 de la actividad principal del establecimiento."
+    },
+    {
+      "nombre": "porcentaje_actividad_principal",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Porcentaje representado por la actividad principal."
+    },
+    {
+      "nombre": "actividad_secundaria_cnae_09",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código CNAE 2009 de la actividad secundaria del establecimiento."
+    },
+    {
+      "nombre": "actividad_secundaria_cnae_25",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código CNAE 2025 de la actividad secundaria del establecimiento."
+    },
+    {
+      "nombre": "porcentaje_actividad_secundaria",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Porcentaje representado por la actividad secundaria."
+    },
+    {
+      "nombre": "empleo",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Número total de personas empleadas."
+    },
+    {
+      "nombre": "empleo_asalariado",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Número total de personas asalariadas."
+    },
+    {
+      "nombre": "mujeres",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Número total de mujeres empleadas."
+    },
+    {
+      "nombre": "mujeres_asalariadas",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion": "Número de mujeres asalariadas."
+    },
+    {
+      "nombre": "superficie_venta_publico",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Superficie en m² dedicada a la venta al público."
+    }
+  ]
+}

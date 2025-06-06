@@ -1,0 +1,115 @@
+{
+  "tabla": "perfil",
+  "campos": [
+    {
+      "nombre": "id",
+      "tipo": "entero",
+      "requerido": true,
+      "clave_primaria": true,
+      "descripcion": "Identificador único de la base de datos."
+    },
+    {
+      "nombre": "identificador_uj",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+    },
+    {
+      "nombre": "perfil_expres_de_innovacion",
+      "tipo": "boolean",
+      "requerido": true,
+      "descripcion": "Indicador de si existe o no un perfil exprés de la empresa"
+    },
+    {
+      "nombre": "perfil_avanzado_de_innovacion",
+      "tipo": "boolean",
+      "requerido": true,
+      "descripcion": "Indicador de si existe o no un perfil avanzado de la empresa."
+    },
+    {
+      "nombre": "fecha_ultimo_perfil_expres",
+      "tipo": "fecha",
+      "requerido": true,
+      "descripcion": "Fecha del último perfil exprés."
+    },
+    {
+      "nombre": "resultado_global_del_perfil_expres",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación sobre 100 obtenida en el perfil exprés que permite clasificar a la empresa como reactiva/cauta/dinámica o lider en innovación."
+    },
+    {
+      "nombre": "resultado_capacidades_perfil_expres",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación obtenida en las preguntas asociadas a las capacidades de innovar de la empresa."
+    },
+    {
+      "nombre": "resultado_actividad_perfil_expres",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación obtenida en las preguntas asociadas a las actividades innovadoras de la empresa."
+    },
+    {
+      "nombre": "fecha_ultimo_perfil_avanzado",
+      "tipo": "fecha",
+      "requerido": true,
+      "descripcion": "Fecha del último perfil avanzado."
+    },
+    {
+      "nombre": "resultado_global_del_perfil_avanzado",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación sobre 100 obtenida en el perfil avanzado que permite clasificar a la empresa como reactiva/cauta/dinámica o lider en innovación."
+    },
+    {
+      "nombre": "resultado_capacidades_perfil_avanzado",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación obtenida en las preguntas asociadas a las capacidades de innovar de la empresa."
+    },
+    {
+      "nombre": "resultado_innovacion_producto_perfil_avanzado",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en producto de la empresa."
+    },
+    {
+      "nombre": "resultado_innovacion_proceso_perfil_avanzado",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en procesos de negocio de la empresa."
+    },
+    {
+      "nombre": "resultado_innovacion_personas_perfil_avanzado",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en organización y gestión de personas de la empresa."
+    },
+    {
+      "nombre": "resultado_innovacion_mercado_perfil_avanzado",
+      "tipo": "decimal",
+      "precision": 10,
+      "escala": 2,
+      "requerido": true,
+      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en desarrollo de mercado de la empresa."
+    }
+  ]
+}
