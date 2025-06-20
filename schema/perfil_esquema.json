@@ -6,32 +6,37 @@
       "tipo": "entero",
       "requerido": true,
       "clave_primaria": true,
-      "descripcion": "Identificador único de la base de datos."
+      "descripcion_es": "Identificador único de la base de datos.",
+      "descripcion_eu": "Datu-basearen identifikatzaile bakarra."
     },
     {
       "nombre": "identificador_uj",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+      "descripcion_es": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos.",
+      "descripcion_eu": "EUSTATek datu-guneari dagokion unitate juridikoaren identifikazio-kodea."
     },
     {
       "nombre": "perfil_expres_de_innovacion",
       "tipo": "boolean",
       "requerido": true,
-      "descripcion": "Indicador de si existe o no un perfil exprés de la empresa"
+      "descripcion_es": "Indicador de si existe o no un perfil exprés de la empresa.",
+      "descripcion_eu": "Enpresaren profil espres bat badago ala ez adierazten du."
     },
     {
       "nombre": "perfil_avanzado_de_innovacion",
       "tipo": "boolean",
       "requerido": true,
-      "descripcion": "Indicador de si existe o no un perfil avanzado de la empresa."
+      "descripcion_es": "Indicador de si existe o no un perfil avanzado de la empresa.",
+      "descripcion_eu": "Enpresaren profil aurreratu bat badago ala ez adierazten du."
     },
     {
       "nombre": "fecha_ultimo_perfil_expres",
       "tipo": "fecha",
       "requerido": true,
-      "descripcion": "Fecha del último perfil exprés."
+      "descripcion_es": "Fecha del último perfil exprés.",
+      "descripcion_eu": "Azken profil espresaren data."
     },
     {
       "nombre": "resultado_global_del_perfil_expres",
@@ -39,7 +44,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación sobre 100 obtenida en el perfil exprés que permite clasificar a la empresa como reactiva/cauta/dinámica o lider en innovación."
+      "descripcion_es": "Puntuación sobre 100 obtenida en el perfil exprés que permite clasificar a la empresa como reactiva/cauta/dinámica o líder en innovación.",
+      "descripcion_eu": "Profil espresaren puntuazioa 100etik; enpresa sailkatzeko aukera ematen du: erreaktiboa, kontu handizkoa, dinamikoa edo berrikuntzan liderrra."
     },
     {
       "nombre": "resultado_capacidades_perfil_expres",
@@ -47,7 +53,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación obtenida en las preguntas asociadas a las capacidades de innovar de la empresa."
+      "descripcion_es": "Puntuación obtenida en las preguntas asociadas a las capacidades de innovar de la empresa.",
+      "descripcion_eu": "Enpresaren berrikuntza gaitasunei buruzko galderetan lortutako puntuazioa."
     },
     {
       "nombre": "resultado_actividad_perfil_expres",
@@ -55,13 +62,15 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación obtenida en las preguntas asociadas a las actividades innovadoras de la empresa."
+      "descripcion_es": "Puntuación obtenida en las preguntas asociadas a las actividades innovadoras de la empresa.",
+      "descripcion_eu": "Enpresaren jarduera berritzaileei buruzko galderetan lortutako puntuazioa."
     },
     {
       "nombre": "fecha_ultimo_perfil_avanzado",
       "tipo": "fecha",
       "requerido": true,
-      "descripcion": "Fecha del último perfil avanzado."
+      "descripcion_es": "Fecha del último perfil avanzado.",
+      "descripcion_eu": "Azken profil aurreratuaren data."
     },
     {
       "nombre": "resultado_global_del_perfil_avanzado",
@@ -69,7 +78,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación sobre 100 obtenida en el perfil avanzado que permite clasificar a la empresa como reactiva/cauta/dinámica o lider en innovación."
+      "descripcion_es": "Puntuación sobre 100 obtenida en el perfil avanzado que permite clasificar a la empresa como reactiva/cauta/dinámica o líder en innovación.",
+      "descripcion_eu": "Profil aurreratuaren puntuazioa 100etik; enpresa sailkatzeko aukera ematen du: erreaktiboa, kontu handizkoa, dinamikoa edo berrikuntzan liderrra."
     },
     {
       "nombre": "resultado_capacidades_perfil_avanzado",
@@ -77,7 +87,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación obtenida en las preguntas asociadas a las capacidades de innovar de la empresa."
+      "descripcion_es": "Puntuación obtenida en las preguntas asociadas a las capacidades de innovar de la empresa.",
+      "descripcion_eu": "Enpresaren berrikuntza gaitasunei buruzko galderetan lortutako puntuazioa."
     },
     {
       "nombre": "resultado_innovacion_producto_perfil_avanzado",
@@ -85,7 +96,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en producto de la empresa."
+      "descripcion_es": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en producto de la empresa.",
+      "descripcion_eu": "Enpresaren produktuen berrikuntza jarduerari buruzko galderetan lortutako puntuazioa."
     },
     {
       "nombre": "resultado_innovacion_proceso_perfil_avanzado",
@@ -93,7 +105,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en procesos de negocio de la empresa."
+      "descripcion_es": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en procesos de negocio de la empresa.",
+      "descripcion_eu": "Enpresaren negozio-prozesu berritzaileei buruzko galderetan lortutako puntuazioa."
     },
     {
       "nombre": "resultado_innovacion_personas_perfil_avanzado",
@@ -101,7 +114,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en organización y gestión de personas de la empresa."
+      "descripcion_es": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en organización y gestión de personas de la empresa.",
+      "descripcion_eu": "Enpresaren pertsonen antolakuntza eta kudeaketa berritzaileei buruzko galderetan lortutako puntuazioa."
     },
     {
       "nombre": "resultado_innovacion_mercado_perfil_avanzado",
@@ -109,7 +123,8 @@
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en desarrollo de mercado de la empresa."
+      "descripcion_es": "Puntuación obtenida en las preguntas asociadas a la actividad innovadora en desarrollo de mercado de la empresa.",
+      "descripcion_eu": "Enpresaren merkatuaren garapen berritzaileei buruzko galderetan lortutako puntuazioa."
     }
   ]
 }

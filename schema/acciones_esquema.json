@@ -6,69 +6,79 @@
       "tipo": "entero",
       "requerido": true,
       "clave_primaria": true,
-      "descripcion": "Identificador único de la base de datos."
+      "descripcion_es": "Identificador único de la base de datos.",
+      "descripcion_eu": "Datu-basearen identifikatzaile bakarra."
     },
     {
       "nombre": "identificador_uj",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+      "descripcion_es": "Código identificador de la unidad jurídica generada por Eustat para el espacio de datos.",
+      "descripcion_eu": "Eustatek datu-esparruarako sortutako unitate juridikoaren identifikatzaile kodea."
     },
     {
       "nombre": "subtipo_accion",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Indicador por subtipo de acciones realizadas (Formación, Servicios, Ayudas y subvenciones, Participación en proyectos, Participación en jornadas, Banco Casos Prácticos, Nominación Premios…)."
+      "descripcion_es": "Indicador por subtipo de acciones realizadas (Formación, Servicios, Ayudas y subvenciones, Participación en proyectos, Participación en jornadas, Banco Casos Prácticos, Nominación Premios…).",
+      "descripcion_eu": "Egindako ekintzen azpimotaren adierazlea (Prestakuntza, Zerbitzuak, Laguntzak eta diru-laguntzak, Proiektuetan parte-hartzea, Jardunaldietan parte-hartzea, Kasu Praktikoen Bankua, Sarien izendapena…)."
     },
     {
       "nombre": "titulo_accion",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Primer detalle de la acción realizada (e.g. nombre del programa de ayuda: HAZINNOVA o ETE DIGITALA)."
+      "descripcion_es": "Primer detalle de la acción realizada (e.g. nombre del programa de ayuda: HAZINNOVA o ETE DIGITALA).",
+      "descripcion_eu": "Egindako ekintzaren lehen xehetasuna (adibidez, laguntza-programaren izena: HAZINNOVA edo ETE DIGITALA)."
     },
     {
       "nombre": "fecha_accion",
       "tipo": "fecha",
       "requerido": true,
-      "descripcion": "Fecha de la acción realizada."
+      "descripcion_es": "Fecha de la acción realizada.",
+      "descripcion_eu": "Egindako ekintzaren data."
     },
     {
       "nombre": "agente_accion",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Agente con el que se ha realizado la acción."
+      "descripcion_es": "Agente con el que se ha realizado la acción.",
+      "descripcion_eu": "Ekintza gauzatu den agentea."
     },
     {
       "nombre": "bidelagun_accion",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Entidad de acompañamiento."
+      "descripcion_es": "Entidad de acompañamiento.",
+      "descripcion_eu": "Laguntza-entitatea."
     },
     {
       "nombre": "ambito_accion",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Ámbito de innovación (Estrategia y planificación, Capacidades de innovación, Innovación en producto, en proceso, en organización de personas, en mercado)."
+      "descripcion_es": "Ámbito de innovación (Estrategia y planificación, Capacidades de innovación, Innovación en producto, en proceso, en organización de personas, en mercado).",
+      "descripcion_eu": "Berrikuntzaren esparrua (Estrategia eta plangintza, Berrikuntza gaitasunak, Produktu berrikuntza, prozesu berrikuntza, pertsonen antolaketa eta kudeaketa, merkatu berrikuntza)."
     },
     {
       "nombre": "subambito_accion",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Subámbito de innovación vinculado al ámbito."
+      "descripcion_es": "Subámbito de innovación vinculado al ámbito.",
+      "descripcion_eu": "Esparruarekin lotutako azpiesparrua."
     },
     {
       "nombre": "descripcion_accion",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Detalle ampliado de la acción realizada (e.g. lote realizado en Hazinnova o contenido en ETE Digitala)."
+      "descripcion_es": "Detalle ampliado de la acción realizada (e.g. lote realizado en Hazinnova o contenido en ETE Digitala).",
+      "descripcion_eu": "Egindako ekintzaren xehetasun zabaldua (adibidez, Hazinnovako lotea edo ETE Digitalako edukia)."
     }
   ]
 }

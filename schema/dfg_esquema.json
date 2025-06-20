@@ -2,102 +2,128 @@
   "tabla": "dfg",
   "campos": [
     {
-      "nombre": "id",
+      "nombre": "id_dgfa",
       "tipo": "entero",
       "requerido": true,
       "clave_primaria": true,
-      "descripcion": "Identificador único de la base de datos."
+      "descripcion_es": "Identificador único de la base de datos.",
+      "descripcion_eu": "Datu-basearen identifikatzaile bakarra."
     },
     {
       "nombre": "identificador_uj",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos."
+      "descripcion_es": "Código identificador de la unidad jurídica generada por EUSTAT para el espacio de datos.",
+      "descripcion_eu": "EUSTATek datu-gunerako sortutako unitate juridikoaren identifikazio-kodea."
     },
     {
-      "nombre": "instrumento",
+      "nombre": "instrumento_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Subvención realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Tipo de instrumento asociado a una subvención realizada desde la Diputación Foral de Gipuzkoa.",
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak emandako dirulaguntza bati lotutako tresna mota.",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html"
     },
     {
-      "nombre": "importe",
+      "nombre": "importe_dgfa",
       "tipo": "decimal",
       "precision": 10,
       "escala": 2,
       "requerido": true,
-      "descripcion": "Importe (en €) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Importe de subvención concedido a una organización por parte de la Diputación Foral de Gipuzkoa.",      
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak erakunde bati emandako dirulaguntzaren zenbatekoa.",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html",
+      "metadatos" : ""
     },
     {
-      "nombre": "ayuda_equivalente",
-      "tipo": "decimal",
-      "precision": 10,
-      "escala": 2,
-      "requerido": true,
-      "descripcion": "Ayuda equivalente (en €) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
-    },
-    {
-      "nombre": "fecha_de_concesion",
+      "nombre": "fecha_de_concesion_dgfa",
       "tipo": "fecha",
       "requerido": true,
-      "descripcion": "Fecha de la concesión (DD/MM/AAAA) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Fecha (DD/MM/AAAA) en que se concede la subvención por parte de la Diputación Foral de Gipuzkoa.",
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak dirulaguntza eman duen data (EE/HH/UUUU).",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html",
+      "metadatos" : ""
     },
     {
-      "nombre": "aplicacion_presupuestaria",
+      "nombre": "aplicacion_presupuestaria_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Aplicación presupuestaria de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Aplicación presupuestaria de la subvención realizada desde la Diputación Foral de Gipuzkoa.",
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak emandako dirulaguntzaren aurrekontu-aplikazioa.",
+      "referencias": "Dato propio de DFG/GFA. No consta en la Base de Datos Nacional de Subvenciones (BDNS): https://datos.gob.es/es/catalogo/e05188501-base-de-datos-nacional-de-subvenciones",
+      "metadatos" : ""
     },
     {
-      "nombre": "url_bases_reguladoras",
+      "nombre": "url_bases_reguladoras_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "URL de las bases reguladoras de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "URL del documento de gestión de la subvención que establece los criterios y regula la concesión de la subvención.",
+      "descripcion_eu": "Dirulaguntza kudeatzeko dokumentuaren URLa, irizpideak ezartzen dituena eta dirulaguntza ematea arautzen duena.",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html",
+      "metadatos" : ""
     },
     {
-      "nombre": "fecha_de_publicacion",
+      "nombre": "fecha_de_publicacion_dgfa",
       "tipo": "fecha",
       "requerido": true,
-      "descripcion": "Fecha de publicación (DD/MM/AAAA) de la subvención realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Fecha de publicación (DD/MM/AAAA) de la subvención realizada desde la Diputación Foral de Gipuzkoa.",
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak emandako dirulaguntzaren argitalpen-data (EE/HH/UUUU).",
+      "referencias": "Dato propio de DFG/GFA. No consta en la Base de Datos Nacional de Subvenciones (BDNS): https://datos.gob.es/es/catalogo/e05188501-base-de-datos-nacional-de-subvenciones",
+      "metadatos" : ""
     },
     {
-      "nombre": "convocatoria",
+      "nombre": "convocatoria_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Convocatoria de ayudas realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Propiedad que identifica la subvención de una asignación realizada desde la Diputación Foral de Gipuzkoa.",
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak egindako esleipen baten dirulaguntza identifikatzen duen propietatea.",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html",
+      "metadatos" : ""
     },
     {
-      "nombre": "descripcion_convocatoria",
+      "nombre": "descripcion_convocatoria_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Descripción de la convocatoria de ayudas realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Descripción de la convocatoria de ayudas realizada desde la Diputación Foral de Gipuzkoa.",
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak egindako laguntzen deialdiaren deskribapena.",
+      "referencias": "Dato propio de DFG/GFA. No consta en la Base de Datos Nacional de Subvenciones (BDNS): https://datos.gob.es/es/catalogo/e05188501-base-de-datos-nacional-de-subvenciones",
+      "metadatos" : ""
     },
     {
-      "nombre": "organo_convocatoria",
+      "nombre": "organo_convocatoria_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Órgano de la convocatoria de ayudas realizada desde la Diputación Foral de Gipuzkoa."
+      "descripcion_es": "Órgano de la Diputación Foral de Gipuzkoa que convoca la subvención.",
+      "descripcion_eu": "Dirulaguntzaren deialdia egiten duen Gipuzkoako Foru Aldundiko organoa.",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html",
+      "metadatos" : ""
     },
     {
-      "nombre": "administracion",
+      "nombre": "administracion_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Administración que realiza la convocatoria de ayudas"
+      "descripcion_es": "Administración que realiza la convocatoria de ayudas.",
+      "descripcion_eu": "Laguntzen deialdia egiten duen administrazioa.",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html",
+      "metadatos" : ""
     },
     {
-      "nombre": "departamento",
+      "nombre": "departamento_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion": "Departamento que realiza la convocatoria de ayudas"
+      "descripcion_es": "Departamento que realiza la convocatoria de ayudas.",
+      "descripcion_eu": "Laguntzen deialdia egiten duen saila.",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html",
+      "metadatos" : ""
     }
   ]
 }

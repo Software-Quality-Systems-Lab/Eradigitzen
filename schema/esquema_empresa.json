@@ -1,0 +1,44 @@
+{
+  "tabla": "empresa",
+  "campos": [
+    {
+      "nombre": "id",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion_es": "Identificador único de la base de datos.",
+      "descripcion_eu": "Datu-basearen identifikatzaile bakarra.",
+      "clave_primaria": true
+    },
+    {
+      "nombre": "identificador_uj",
+      "tipo": "cadena",
+      "requerido": true,
+      "descripcion_es": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos.",
+      "descripcion_eu": "EUSTATek datu-gunerako sortutako unitate juridikoaren identifikazio-kodea.",
+      "longitud": 50
+    },
+    {
+      "nombre": "identificador_establecimiento",
+      "tipo": "cadena",
+      "requerido": true,
+      "descripcion_es": "Código identificador del establecimiento generado por eustat para el espacio de datos.",
+      "descripcion_eu": "EUSTATek datu-gunerako sortutako establezimenduaren identifikazio-kodea.",
+      "longitud": 50
+    },
+    {
+      "nombre": "identificador_interno",
+      "tipo": "cadena",
+      "requerido": true,
+      "descripcion_es": "Identificador interno de la entidad.",
+      "descripcion_eu": "Erakundearen barne-identifikatzailea.",
+      "longitud": 50
+    },
+    {
+      "nombre": "fecha_ref",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion_es": "Año de referencia de los datos.",
+      "descripcion_eu": "Datuen erreferentziaurtea."
+    }
+  ]
+}
