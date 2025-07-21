@@ -10,7 +10,7 @@
       "descripcion_eu": "Datu-basearen identifikatzaile bakarra."
     },
     {
-      "nombre": "NIF",
+      "nombre": "nif",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
