@@ -10,12 +10,13 @@
       "descripcion_eu": "Datu-basearen identifikatzaile bakarra."
     },
     {
-      "nombre": "NIF",
+      "nombre": "beneficiario_dgfa",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion_es": "Código que identifica a las personas físicas y jurídicas en sus relaciones tributarias en España.",
-      "descripcion_eu": "Espainian zergarekin lotutako harremanetan pertsona fisiko eta juridikoak identifikatzeko erabiltzen den kodea."
+      "descripcion_es": "Beneficiario de la subvención realizada desde la Diputación Foral de Gipuzkoa (NIF).",
+      "descripcion_eu": "Gipuzkoako Foru Aldundiak emandako dirulaguntzaren onuraduna (IFZ).",
+      "referencias": "Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio: https://vocab.ciudadesabiertas.es/def/sector-publico/subvencion/index-es.html"
     },
     {
       "nombre": "instrumento_dgfa",
