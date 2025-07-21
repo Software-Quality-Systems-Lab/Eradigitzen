@@ -10,12 +10,12 @@
       "descripcion_eu": "Datu-basearen identifikatzaile bakarra."
     },
     {
-      "nombre": "identificador_uj",
+      "nombre": "NIF",
       "tipo": "cadena",
       "longitud": 50,
       "requerido": true,
-      "descripcion_es": "Código identificador de la unidad jurídica generada por eustat para el espacio de datos.",
-      "descripcion_eu": "EUSTATek datu-guneari dagokion unitate juridikoaren identifikazio-kodea."
+      "descripcion_es": "Código que identifica a las personas físicas y jurídicas en sus relaciones tributarias en España.",
+      "descripcion_eu": "Espainian zergarekin lotutako harremanetan pertsona fisiko eta juridikoak identifikatzeko erabiltzen den kodea."
     },
     {
       "nombre": "perfil_expres_de_innovacion",
